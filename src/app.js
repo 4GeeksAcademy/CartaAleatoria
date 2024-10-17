@@ -5,7 +5,7 @@ import "./assets/img/cards.ico";
 
 window.onload = function() {
   //write your code here
-  //Declaramos dos arrays, uno con los palos y otro con los valores de cada carta
+  
   let palo = ["♥", "♦", "♣", "♠"];
   let carta = ["A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K", "🦹🏻"];
   let color = "";
