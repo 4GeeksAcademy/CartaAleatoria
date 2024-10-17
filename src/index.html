@@ -3,26 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Random Cards Generator</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./cards.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div style="text-align: center;">
+      <h1>Generador de cartas aletoritas:</h1>
+      <h5>Recarga la página para obtener una nueva carta.</h5>
+    </div>
+    <div class="contenedor">
+      <div class="card">
+        <div class="header_card">
+          <p class="generarPaloTop"><strong>♠</strong></p>
+        </div>
+        <div class="body_card">
+          <p class="generarCarta"><strong>A</strong></p>
+        </div>
+        <div class="footer_card">
+          <p class="generarPaloBottom"><strong>♠</strong></p>
+        </div>
       </div>
     </div>
   </body>

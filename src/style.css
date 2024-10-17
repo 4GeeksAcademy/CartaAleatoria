@@ -1,1 +1,49 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  font-family: "Lilita One", sans-serif;
+}
+
+div.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.card {
+  background-color: white;
+  width: 400px;
+  height: 600px;
+  margin: 5%;
+  border-radius: 5%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+}
+
+div.header_card {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin: 5%;
+}
+
+div.body_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+  margin: auto;
+}
+
+div.footer_card {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin: 5%;
+}
+
+p {
+  font-size: 100px;
+}
